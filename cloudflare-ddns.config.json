@@ -1,0 +1,20 @@
+{
+  "cloudflare": [
+    {
+      "authentication": {
+        "api_token": ""
+      },
+      "zone_id": "",
+      "subdomains": [
+        {
+          "name": "music",
+          "proxied": false
+        }
+      ]
+    }
+  ],
+  "a": true,
+  "aaaa": false,
+  "purgeUnknownRecords": false,
+  "ttl": 300
+}

@@ -1,0 +1,2 @@
+30 0 * * * /data/data/com.termux/files/home/music-server/remove_stared_tracks.sh
+*/15 * * * * /data/data/com.termux/files/home/cloudflare-ddns/start-sync.sh
