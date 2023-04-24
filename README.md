@@ -1,7 +1,7 @@
-Setup for my personal [https://github.com/navidrome/navidrome](Navidrome) based music streaming server running on a non-rooted Samsung Galaxy S7 using [https://termux.dev/en/](Termux). 
+Setup for my personal [Navidrome](https://github.com/navidrome/navidrome) based music streaming server running on a Samsung Galaxy S7 using [Termux](https://termux.dev/en/). 
 
 ## features
-* Uses [https://wiki.termux.com/wiki/Termux:Boot](Termux:Boot) & [https://wiki.termux.com/wiki/Termux-services](Termux-services) to automatically start everything on boot.
+* Uses [Termux:Boot](https://wiki.termux.com/wiki/Termux:Boot) & [Termux-Services](https://wiki.termux.com/wiki/Termux-services) to automatically start everything on boot.
 * Automatically removes songs with ☆☆☆☆★ reviews.
 * Uses Cloudflare for dynamic DNS updates.
 
@@ -15,7 +15,7 @@ find . -iname '*.mp3' -exec bash -c 'F=$(cat /dev/urandom | gtr -dc 'a-zA-Z0-9' 
 ```
 
 ## Install
-* Install [https://f-droid.org/en/](F-Droid) and then Termux + Termux:Boot.
+* Install [F-Droid](https://f-droid.org/en/) and then Termux + Termux:Boot.
 * Launch Termux:Boot and then exit.
 * send this to your phone and paste into termux terminal.
 ```
