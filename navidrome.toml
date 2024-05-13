@@ -1,4 +1,5 @@
 DataFolder = "/home/david/navidrome/data"
-MusicFolder = "/home/david/music"
+MusicFolder = "/home/david/external-storage/music"
 Spotify.ID = "9e61495eedf1400aab1e579bc721adc3"
 Spotify.Secret = "4216bf5516bc457cb8939a12b889ebf4"
+EnableTranscodingConfig = true
